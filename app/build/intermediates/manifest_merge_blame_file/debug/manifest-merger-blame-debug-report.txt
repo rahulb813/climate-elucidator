@@ -1,0 +1,90 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.weatherapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\rahul\Downloads\WeatherApp_v8\WeatherApp_v8\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\rahul\Downloads\WeatherApp_v8\WeatherApp_v8\app\src\main\AndroidManifest.xml
+10
+11    <!-- To access the Internet -->
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\rahul\Downloads\WeatherApp_v8\WeatherApp_v8\app\src\main\AndroidManifest.xml:5:5-67
+12-->C:\Users\rahul\Downloads\WeatherApp_v8\WeatherApp_v8\app\src\main\AndroidManifest.xml:5:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->C:\Users\rahul\Downloads\WeatherApp_v8\WeatherApp_v8\app\src\main\AndroidManifest.xml:6:5-79
+13-->C:\Users\rahul\Downloads\WeatherApp_v8\WeatherApp_v8\app\src\main\AndroidManifest.xml:6:22-76
+14    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+14-->C:\Users\rahul\Downloads\WeatherApp_v8\WeatherApp_v8\app\src\main\AndroidManifest.xml:7:5-76
+14-->C:\Users\rahul\Downloads\WeatherApp_v8\WeatherApp_v8\app\src\main\AndroidManifest.xml:7:22-73
+15
+16    <!-- To access the location -->
+17    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+17-->C:\Users\rahul\Downloads\WeatherApp_v8\WeatherApp_v8\app\src\main\AndroidManifest.xml:10:5-79
+17-->C:\Users\rahul\Downloads\WeatherApp_v8\WeatherApp_v8\app\src\main\AndroidManifest.xml:10:22-76
+18    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+18-->C:\Users\rahul\Downloads\WeatherApp_v8\WeatherApp_v8\app\src\main\AndroidManifest.xml:11:5-81
+18-->C:\Users\rahul\Downloads\WeatherApp_v8\WeatherApp_v8\app\src\main\AndroidManifest.xml:11:22-78
+19
+20    <application
+20-->C:\Users\rahul\Downloads\WeatherApp_v8\WeatherApp_v8\app\src\main\AndroidManifest.xml:13:5-31:19
+21        android:allowBackup="true"
+21-->C:\Users\rahul\Downloads\WeatherApp_v8\WeatherApp_v8\app\src\main\AndroidManifest.xml:14:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.2.0] C:\Users\rahul\.gradle\caches\transforms-3\38ac028d743ff7e9b3f7c1b3ffc8adc7\transformed\core-1.2.0\AndroidManifest.xml:24:18-86
+23        android:debuggable="true"
+24        android:icon="@mipmap/ic_launcher"
+24-->C:\Users\rahul\Downloads\WeatherApp_v8\WeatherApp_v8\app\src\main\AndroidManifest.xml:15:9-43
+25        android:label="@string/app_name"
+25-->C:\Users\rahul\Downloads\WeatherApp_v8\WeatherApp_v8\app\src\main\AndroidManifest.xml:16:9-41
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->C:\Users\rahul\Downloads\WeatherApp_v8\WeatherApp_v8\app\src\main\AndroidManifest.xml:17:9-54
+27        android:supportsRtl="true"
+27-->C:\Users\rahul\Downloads\WeatherApp_v8\WeatherApp_v8\app\src\main\AndroidManifest.xml:18:9-35
+28        android:testOnly="true"
+29        android:theme="@style/AppTheme" >
+29-->C:\Users\rahul\Downloads\WeatherApp_v8\WeatherApp_v8\app\src\main\AndroidManifest.xml:19:9-40
+30        <activity
+30-->C:\Users\rahul\Downloads\WeatherApp_v8\WeatherApp_v8\app\src\main\AndroidManifest.xml:21:9-29:20
+31            android:name="com.weatherapp.activities.MainActivity"
+31-->C:\Users\rahul\Downloads\WeatherApp_v8\WeatherApp_v8\app\src\main\AndroidManifest.xml:22:13-52
+32            android:screenOrientation="portrait" >
+32-->C:\Users\rahul\Downloads\WeatherApp_v8\WeatherApp_v8\app\src\main\AndroidManifest.xml:23:13-49
+33            <intent-filter>
+33-->C:\Users\rahul\Downloads\WeatherApp_v8\WeatherApp_v8\app\src\main\AndroidManifest.xml:24:13-28:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->C:\Users\rahul\Downloads\WeatherApp_v8\WeatherApp_v8\app\src\main\AndroidManifest.xml:25:17-69
+34-->C:\Users\rahul\Downloads\WeatherApp_v8\WeatherApp_v8\app\src\main\AndroidManifest.xml:25:25-66
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->C:\Users\rahul\Downloads\WeatherApp_v8\WeatherApp_v8\app\src\main\AndroidManifest.xml:27:17-77
+36-->C:\Users\rahul\Downloads\WeatherApp_v8\WeatherApp_v8\app\src\main\AndroidManifest.xml:27:27-74
+37            </intent-filter>
+38        </activity>
+39        <activity
+39-->[com.karumi:dexter:6.0.1] C:\Users\rahul\.gradle\caches\transforms-3\f59d3b098060128e24e3266aa736e598\transformed\jetified-dexter-6.0.1\AndroidManifest.xml:27:9-29:72
+40            android:name="com.karumi.dexter.DexterActivity"
+40-->[com.karumi:dexter:6.0.1] C:\Users\rahul\.gradle\caches\transforms-3\f59d3b098060128e24e3266aa736e598\transformed\jetified-dexter-6.0.1\AndroidManifest.xml:28:13-60
+41            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+41-->[com.karumi:dexter:6.0.1] C:\Users\rahul\.gradle\caches\transforms-3\f59d3b098060128e24e3266aa736e598\transformed\jetified-dexter-6.0.1\AndroidManifest.xml:29:13-69
+42        <activity
+42-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\rahul\.gradle\caches\transforms-3\bffc6d3a893f1ce538adbe972b0e9776\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+43            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+43-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\rahul\.gradle\caches\transforms-3\bffc6d3a893f1ce538adbe972b0e9776\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+44            android:exported="false"
+44-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\rahul\.gradle\caches\transforms-3\bffc6d3a893f1ce538adbe972b0e9776\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+45            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+45-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\rahul\.gradle\caches\transforms-3\bffc6d3a893f1ce538adbe972b0e9776\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+46
+47        <meta-data
+47-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\rahul\.gradle\caches\transforms-3\2dd711ec4383f394f8a892e141d973f5\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+48            android:name="com.google.android.gms.version"
+48-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\rahul\.gradle\caches\transforms-3\2dd711ec4383f394f8a892e141d973f5\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+49            android:value="@integer/google_play_services_version" />
+49-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\rahul\.gradle\caches\transforms-3\2dd711ec4383f394f8a892e141d973f5\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+50    </application>
+51
+52</manifest>
