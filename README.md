@@ -1,4 +1,4 @@
-# Veracious Prophecy
+# Climate Judas
 ## Introduction
 - A location API based android application to collect location and provide weather information.
 - Provides information of temperature, humidity and wind speed.
